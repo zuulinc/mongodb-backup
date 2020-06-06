@@ -206,8 +206,7 @@ function allCollections(db, name, query, metadata, parser, next) {
                 }
 
                 meta(collection, metadata, function () {
-                    logger(query)
-                    var stream = collection.find(query).snapshot(true).stream();
+                    var stream = collection.find(query).stream();
 
                     stream
                         .once('end', function () {
@@ -317,8 +316,7 @@ function someCollections(db, name, query, metadata, parser, next, collections) {
 
 
 
-    collections.forEach(async function (collection) {
-        logger(`fetching ${collection}`)
+    collections.forEach(function (collection) {
         db.collection(
             collection, {
                 strict: true,
@@ -330,19 +328,13 @@ function someCollections(db, name, query, metadata, parser, next, collections) {
                 }
 
                 logger('select collection ' + collection.collectionName);
-                makeDir(name + collection.collectionName + path.sep, async function (
+                makeDir(name + collection.collectionName + path.sep, function (
                     err,
                     name
                 ) {
                     if (err) {
                         return last === ++index ? next(err) : error(err);
                     }
-
-                    // logger(query);
-
-                    // const results = await collection.find({});
-
-                    // logger(results);
 
                     meta(collection, metadata, function () {
                         var stream = collection.find(query).stream();

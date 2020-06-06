@@ -576,7 +576,9 @@ function wrapper(my) {
                                     }
 
                                     var packer = require('tar')
-                                        .Pack()
+                                        .Pack({
+                                            gzip: true
+                                        })
                                         .on('error', callback)
                                         .on('end', function () {
                                             rmDir(root);

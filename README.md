@@ -1,16 +1,16 @@
-# [mongodb-backup](https://github.com/hex7c0/mongodb-backup)
+# [@zuul/mongodb-backup](https://github.com/zuulinc/mongodb-backup)
 
 [![NPM version](https://img.shields.io/npm/v/mongodb-backup.svg)](https://www.npmjs.com/package/mongodb-backup)
-[![Linux Status](https://img.shields.io/travis/hex7c0/mongodb-backup.svg?label=linux)](https://travis-ci.org/hex7c0/mongodb-backup)
-[![Windows Status](https://img.shields.io/appveyor/ci/hex7c0/mongodb-backup.svg?label=windows)](https://ci.appveyor.com/project/hex7c0/mongodb-backup)
-[![Dependency Status](https://img.shields.io/david/hex7c0/mongodb-backup.svg)](https://david-dm.org/hex7c0/mongodb-backup)
-[![Coveralls](https://img.shields.io/coveralls/hex7c0/mongodb-backup.svg)](https://coveralls.io/r/hex7c0/mongodb-backup)
+[![Linux Status](https://img.shields.io/travis/zuulinc/mongodb-backup.svg?label=linux)](https://travis-ci.org/zuulinc/mongodb-backup)
+[![Windows Status](https://img.shields.io/appveyor/ci/zuulinc/mongodb-backup.svg?label=windows)](https://ci.appveyor.com/project/zuulinc/mongodb-backup)
+[![Dependency Status](https://img.shields.io/david/zuulinc/mongodb-backup.svg)](https://david-dm.org/zuulinc/mongodb-backup)
+[![Coveralls](https://img.shields.io/coveralls/zuulinc/mongodb-backup.svg)](https://coveralls.io/r/zuulinc/mongodb-backup)
 
 Backup for mongodb
 
-Look at [`mongodb-backup-cli`](https://github.com/hex7c0/mongodb-backup-cli) for command line usage, similar to [mongodump](http://docs.mongodb.org/manual/reference/program/mongodump/)
+Look at [`mongodb-backup-cli`](https://github.com/zuulinc/mongodb-backup-cli) for command line usage, similar to [mongodump](http://docs.mongodb.org/manual/reference/program/mongodump/)
 
-Look at [`mongodb-restore`](https://github.com/hex7c0/mongodb-restore) for restore data
+Look at [`mongodb-restore`](https://github.com/zuulinc/mongodb-restore) for restore data
 
 ## Installation
 
@@ -21,7 +21,7 @@ npm install mongodb-backup
 ```
 or
 ```bash
-git clone git://github.com/hex7c0/mongodb-backup.git
+git clone git://github.com/zuulinc/mongodb-backup.git
 ```
 
 Bson@0.4.11 has been pulled out, so versions >= `1.3.0` and <= `1.4.1` are deprecated
@@ -57,6 +57,6 @@ backup({
 
 ## Examples
 
-Take a look at my [examples](https://github.com/hex7c0/mongodb-backup/tree/1.6/examples)
+Take a look at my [examples](https://github.com/zuulinc/mongodb-backup/tree/1.6/examples)
 
-### [License Apache2](https://github.com/hex7c0/mongodb-backup/blob/1.6/LICENSE)
+### [License Apache2](https://github.com/zuulinc/mongodb-backup/blob/1.6/LICENSE)

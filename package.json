@@ -1,6 +1,6 @@
 {
-  "version": "1.6.9",
-  "name": "mongodb-backup",
+  "version": "2.0.0",
+  "name": "@zuul/mongodb-backup",
   "description": "backup for mongodb",
   "keywords": [
     "mongodb",
@@ -8,21 +8,21 @@
     "dump"
   ],
   "preferGlobal": false,
-  "homepage": "https://github.com/hex7c0/mongodb-backup",
+  "homepage": "https://github.com/zuulinc/mongodb-backup",
   "author": {
-    "name": "hex7c0",
-    "email": "hex7c0@gmail.com",
-    "url": "https://hex7c0.github.io/"
+    "name": "ZUUL",
+    "email": "support@zuul.ca",
+    "url": "https://zuul.ca/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hex7c0/mongodb-backup.git"
+    "url": "https://github.com/zuulinc/mongodb-backup.git"
   },
   "bugs": {
-    "url": "https://github.com/hex7c0/mongodb-backup/issues",
-    "email": "hex7c0@gmail.com"
+    "url": "https://github.com/zuulinc/mongodb-backup/issues",
+    "email": "support@zuul.ca"
   },
-  "main": "index.min.js",
+  "main": "index.js",
   "dependencies": {
     "bson": "1.0.4",
     "fstream": "1.0.11",

@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "name": "@zuul/mongodb-backup",
+  "name": "@zuulinc/mongodb-backup",
   "description": "backup for mongodb",
   "keywords": [
     "mongodb",
@@ -50,6 +50,9 @@
     "prepublishOnly": "grunt",
     "test": "mocha --bail --check-leaks --globals Promise --timeout 10000",
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --timeout 10000"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "license": "Apache-2.0"
 }
